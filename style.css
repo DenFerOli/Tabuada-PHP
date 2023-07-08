@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(122, 202, 255)
+  }
+  
+  body main h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(10, 64, 100);
+  }
+  
+  body main form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(10, 64, 100);
+    box-shadow: 0 0 3px #fff;
+  }
+  
+  body main form input {
+    text-align: center;
+    height: 30px;
+    width: 40px;
+    border-style: none;
+    border-radius: 5px;
+  }
+  
+  body main form input:nth-child(2) {
+    width: 100px;
+    background-color: rgb(61, 138, 108);
+    color: #fff;
+    
+  }
+  
+  body main form input:nth-child(2):hover {
+    background-color: rgb(51, 117, 92);
+    cursor: pointer;
+    box-shadow: 0 0 3px #ffffff;
+    transition: 300ms;
+  }
+  
+  body main ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body main ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(10, 64, 100);
+    color: #fff;
+    margin-bottom: 5px;
+    list-style: none;
+  }
